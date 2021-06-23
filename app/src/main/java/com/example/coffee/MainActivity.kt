@@ -12,10 +12,5 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
-        Handler().postDelayed({
-            val intent = Intent(this,SplashFragment::class.java)
-            startActivity(intent)
-            finish()
-        },3000)
     }
 }
