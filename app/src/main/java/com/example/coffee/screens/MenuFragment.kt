@@ -9,7 +9,6 @@ import com.example.coffee.R
 
 class MenuFragment : Fragment() {
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
